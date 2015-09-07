@@ -26,18 +26,18 @@ Couple features I am still missing:
 
 ## FAQ
 
-1. Why would you use PHP?
+### Why would you use PHP?
 
 Because it is easy, and was already available and running on my machine
 
-2. Why is the code you added so awful?
+### Why is the code you added so awful?
 
 Well, I wanted a quick and dirty solution (took me a couple hours to do it) and
 I wanted to see results. That is why I haven't used any frameworks or stuff
 since it would be overkill and would probably have killed my will to do this
 project.
 
-3. Is this all?
+### Is this all?
 
 Yep.
 
