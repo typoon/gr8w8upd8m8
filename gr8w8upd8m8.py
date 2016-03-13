@@ -339,7 +339,7 @@ def device_present(addr):
 
 def save_weight(weight):
     remote_url = "http://localhost/weight/record_weight.php"
-    username = "dummy"
+    username = "gilgamesh"
     password = "dummy"
 
     # I got two people at home using the scale, so I needed a quick way to
@@ -372,7 +372,10 @@ if __name__ == "__main__":
         pass
 
     while True:
-        time.sleep(0.1)
-        if device_present(address):
-            weight = main()
-            save_weight(weight)
+        try:
+            time.sleep(0.1)
+            if device_present(address):
+                weight = main()
+                save_weight(weight)
+        except:
+            pass
